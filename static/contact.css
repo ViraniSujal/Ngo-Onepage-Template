@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500&family=Poppins:wght@300;400;500&display=swap');
+h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    padding: 15px;
+    color: rgb(53, 60, 31);
+}
+
+.container {
+    min-height: 70vh;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0px 483px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.myForm:hover {
+    color: #062855ff;
+    border-color: #062855ff;
+}
+
+.myInput {
+    color: #062855ff;
+    width: 100%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 15px;
+    border: 2px solid #C1C8BBff;
+    border-radius: 12px;
+}
+
+.sel {
+    color: #062855ff;
+    width: 100%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 15px;
+    border: 2px solid #C1C8BBff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.con {
+    height: 5px;
+}
+
+.btn {
+    color: #C1C8BBff;
+    font-family: 'Laila', serif;
+    font-size: 20px;
+    background-color: #062855ff;
+    padding: 3px 23px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

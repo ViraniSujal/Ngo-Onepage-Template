@@ -1,0 +1,36 @@
+extends base.pug
+ 
+block scripts
+  script(src='/static/index.js')
+
+block style
+        link(rel='stylesheet', href='../static/style.css')  
+        link(rel='stylesheet', href='../static/contact.css')
+block icon 
+        link(rel="icon", href="../static/icon.png") 
+
+block content
+      h3 Contact Us
+      div.container 
+            form(action="/contact", method = "post", class="myForm") 
+               label(for="Name") Name 
+                      input(type="text",class="myInput", name="name", placeholder="Enter you Name")
+      
+               label(for="Phone Number") Phone Number
+                      input(type="phone",class="myInput", name="phoneno", placeholder="Enter you Phone Number")
+      
+               label(for="E-Mail") E-mail
+                      input(type="email",class="myInput", name="email", placeholder="Enter you E-Mail")
+      
+               label(for="Address") Address
+                      input(type="text",class="myInput", name="address", placeholder="Enter you Address")
+      
+               label(for="Age") Age
+                  div.con
+                  select.sel(name="age") 
+                            option(value='Male') Male 
+                            option(value='Female') Female
+                            option(value='Other') Other
+               button(onclick = "alert('Thank you! For giving your info.')").btn 
+                   | SUBMIT 
+               div.con     

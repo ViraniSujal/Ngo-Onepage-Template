@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500&family=Poppins:wght@300;400;500&display=swap');
+h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    padding: 15px;
+    color: rgb(53, 60, 31);
+}
+
+.container {
+    min-height: 120vh;
+}
+
+h2 {
+    text-align: center;
+    padding: 102px 75px;
+    /* padding-left: 946px; */
+    /* margin-right: 13px; */
+    color: rgb(53, 60, 31);
+    font-size: 20px;
+    font-family: 'Laila', serif;
+}

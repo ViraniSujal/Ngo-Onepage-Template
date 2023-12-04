@@ -1,0 +1,27 @@
+extends base.pug
+ 
+block scripts
+  script(src='/static/index.js')
+
+block style
+        link(rel='stylesheet', href='../static/style.css')  
+        link(rel='stylesheet', href='../static/about.css')
+block icon 
+        link(rel="icon", href="../static/icon.png") 
+
+block content
+      h3 About US
+      div.container 
+              div.card 
+                  div.card-content
+                        h2    Sahay NGO is a non-governmental organization that works for environmental conservation and protection. We believe that the environment is our common heritage and we have a responsibility to preserve it for ourselves and future generations.
+                  div.card-box
+                       div.card-img 
+                            img(src="/static/bg.jpg")
+       
+              div.card 
+                  div.card-content
+                        h2  We aim to raise awareness, educate, and empower people to take action for the environment. We also support and collaborate with other organizations and individuals who share our vision and values. 
+                  div.card-box
+                       div.card-img 
+                            img(src="/static/bg2.jpg")
